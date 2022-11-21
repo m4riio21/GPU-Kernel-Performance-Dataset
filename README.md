@@ -46,10 +46,10 @@ As we can see, the best model for this dataset is **Decision Tree Regressor**. H
 ## Demo
 Per tal de fer una prova, es pot fer servir amb la següent comanda
 ``` python3 demo/demo.py --input here ```
-## Conclusions
+## Conclusion
 El millor model que s'ha aconseguit ha estat...
 En comparació amb l'estat de l'art i els altres treballs que hem analitzat....
-## Idees per treballar en un futur
+## Future work
 Crec que seria interesant indagar més en...
-## Llicencia
+## License
 This project is under the GPL-3.0 License - see the [LICENSE](LICENSE) for more details
