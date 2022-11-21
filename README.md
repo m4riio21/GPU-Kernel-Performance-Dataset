@@ -1,5 +1,6 @@
 # Pràctica Kaggle APC UAB 2022-23
-### Nom: ***** ### GPU Kernel Performance Dataset *****
+### Nom: **Mario González Castaño**
+### Dataset: **GPU Kernel Performance Dataset**
 ### URL: [kaggle](https://www.kaggle.com/datasets/rupals/gpu-runtime)
 ## Resum
 En aquest treball analitzarem un dataset del rendiment d'una GPU (tarjeta gràfica) fent una operació de multiplicació amb matrius 2048 * 2048, fent us d'un kernel parametritzable amb 241600 possibles combinacions de paràmetres. En aquest dataset, tenim 4 execucions de les operacions per cada combinació de paràmetres.
