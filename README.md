@@ -27,6 +27,9 @@ Això ho transformem en:
 | Run (ms) |
 | -- |
 | 116,37 |
+
+L'altre transformació que s'ha aplicat es **outlier removal** en l'atribut a predir, aquesta transformació consisteix en l'eliminació d'aquells valors que es trobem molt allunyats de la gran majoria de valors. Això ens donarà un conjunt més petit de valors en l'atribut objectiu la qual cosa ens facilitarà a l'hora de fer les nostres prediccions.
+
 ### Model
 | Model | Hiperparametres | Mètrica | Temps |
 | -- | -- | -- | -- |
