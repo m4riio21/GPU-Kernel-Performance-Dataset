@@ -24,6 +24,7 @@ En quant al preprocessament de les dades, es un punt important que ens ajudarà 
 Això ho transformem en: 
 
 | Run (ms) |
+| -- |
 | 116,37 |
 ### Model
 | Model | Hiperparametres | Mètrica | Temps |
