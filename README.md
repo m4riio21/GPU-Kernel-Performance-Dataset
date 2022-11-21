@@ -37,6 +37,8 @@ L'altre transformació que s'ha aplicat es **outlier removal** en l'atribut a pr
 | [Linear Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html?highlight=linearregre#sklearn.linear_model.LinearRegression) | {'fit_intercept': False} | 0.234 | 0.767 |
 | [SGD Regressor](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.SGDRegressor.html?highlight=sgdregress#sklearn.linear_model.SGDRegressor) | {'alpha': 0.0001, 'fit_intercept': False, 'loss': 'squared_error', 'penalty': 'l2', 'tol': 0.01} | 0.234 | 0.767 |
 
+Com podem observar, el model que millor s'adapta al dataset és el **Decision Tree Regressor**, tot i així tenim un score força baix per la qual cosa el model no acabarà de predir bé l'atribut objectiu.
+
 ## Demo
 Per tal de fer una prova, es pot fer servir amb la següent comanda
 ``` python3 demo/demo.py --input here ```
