@@ -31,14 +31,12 @@ Això ho transformem en:
 L'altre transformació que s'ha aplicat es **outlier removal** en l'atribut a predir, aquesta transformació consisteix en l'eliminació d'aquells valors que es trobem molt allunyats de la gran majoria de valors. Això ens donarà un conjunt més petit de valors en l'atribut objectiu la qual cosa ens facilitarà a l'hora de fer les nostres prediccions.
 
 ### Model
-| Model | Hiperparametres | Mètrica | Temps |
+| Model | Hiperparametres | Score | MSE |
 | -- | -- | -- | -- |
-| [Decision Tree Regressor](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html?highlight=decision+tree) | 100 Trees, XX | 57% | 100ms |
-| [Linear Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html?highlight=linearregre#sklearn.linear_model.LinearRegression) | 1000 Trees, XX | 58% | 1000ms |
-| [SGD Regressor](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.SGDRegressor.html?highlight=sgdregress#sklearn.linear_model.SGDRegressor) | kernel: lineal C:10 | 58% | 200ms |
-| -- | -- | -- | -- |
-| [model de XXX](link al kaggle) | XXX | 58% | ?ms |
-| [model de XXX](link al kaggle) | XXX | 62% | ?ms |
+| [Decision Tree Regressor](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html?highlight=decision+tree) | {'max_depth': 10, 'max_features': None, 'max_leaf_nodes': 500, 'min_weight_fraction_leaf': 0.0, 'splitter': 'random'} | 0.293 | 0.707 |
+| [Linear Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html?highlight=linearregre#sklearn.linear_model.LinearRegression) | {'fit_intercept': False} | 0.234 | 0.767 |
+| [SGD Regressor](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.SGDRegressor.html?highlight=sgdregress#sklearn.linear_model.SGDRegressor) | {'alpha': 0.0001, 'fit_intercept': False, 'loss': 'squared_error', 'penalty': 'l2', 'tol': 0.01} | 0.234 | 0.767 |
+
 ## Demo
 Per tal de fer una prova, es pot fer servir amb la següent comanda
 ``` python3 demo/demo.py --input here ```
