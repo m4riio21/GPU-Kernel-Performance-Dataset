@@ -33,9 +33,9 @@ L'altre transformació que s'ha aplicat es **outlier removal** en l'atribut a pr
 ### Model
 | Model | Hiperparametres | Mètrica | Temps |
 | -- | -- | -- | -- |
-| [Random Forest](link) | 100 Trees, XX | 57% | 100ms |
-| Random Forest | 1000 Trees, XX | 58% | 1000ms |
-| SVM | kernel: lineal C:10 | 58% | 200ms |
+| [Decision Tree Regressor](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html?highlight=decision+tree) | 100 Trees, XX | 57% | 100ms |
+| [Linear Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html?highlight=linearregre#sklearn.linear_model.LinearRegression) | 1000 Trees, XX | 58% | 1000ms |
+| [SGD Regressor](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.SGDRegressor.html?highlight=sgdregress#sklearn.linear_model.SGDRegressor) | kernel: lineal C:10 | 58% | 200ms |
 | -- | -- | -- | -- |
 | [model de XXX](link al kaggle) | XXX | 58% | ?ms |
 | [model de XXX](link al kaggle) | XXX | 62% | ?ms |
