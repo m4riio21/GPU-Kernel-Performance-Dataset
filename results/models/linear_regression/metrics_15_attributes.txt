@@ -1,0 +1,2 @@
+Rendiment del model (regressió linear): 0.46805152161552555
+MSE: 0.5429602247898677

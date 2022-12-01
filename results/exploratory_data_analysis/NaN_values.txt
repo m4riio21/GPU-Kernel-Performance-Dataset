@@ -1,0 +1,19 @@
+MWG          0
+NWG          0
+KWG          0
+MDIMC        0
+NDIMC        0
+MDIMA        0
+NDIMB        0
+KWI          0
+VWM          0
+VWN          0
+STRM         0
+STRN         0
+SA           0
+SB           0
+Run1 (ms)    0
+Run2 (ms)    0
+Run3 (ms)    0
+Run4 (ms)    0
+dtype: int64

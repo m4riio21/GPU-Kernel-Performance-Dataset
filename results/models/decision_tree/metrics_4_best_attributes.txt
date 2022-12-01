@@ -1,0 +1,2 @@
+Rendiment del model (decision tree): 0.3363148223698741
+MSE: 0.6655492831355382
