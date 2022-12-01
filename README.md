@@ -35,17 +35,29 @@ The other transformation that has been applied is **outlier removal** in this ob
 
 
 ### Model
-| Model | Hyperparameters | Score | MSE |
+| Model | Attributes | Score | MSE |
 | -- | -- | -- | -- |
-| [Decision Tree Regressor](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html?highlight=decision+tree) | {'max_depth': 10, 'max_features': None, 'max_leaf_nodes': 500, 'min_weight_fraction_leaf': 0.0, 'splitter': 'random'} | 0.293 | 0.707 |
-| [Linear Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html?highlight=linearregre#sklearn.linear_model.LinearRegression) | {'fit_intercept': False} | 0.234 | 0.767 |
-| [SGD Regressor](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.SGDRegressor.html?highlight=sgdregress#sklearn.linear_model.SGDRegressor) | {'alpha': 0.0001, 'fit_intercept': False, 'loss': 'squared_error', 'penalty': 'l2', 'tol': 0.01} | 0.234 | 0.767 |
+| [Decision Tree Regressor](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html?highlight=decision+tree) | ['MWG','NWG', 'SA',  'VWM','MDIMC','SB', 'NDIMC'] | 0.938 | 0.06 |
+| [Linear Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html?highlight=linearregre#sklearn.linear_model.LinearRegression) | ['MWG','NWG', 'SA',  'VWM','MDIMC','SB', 'NDIMC'] | 0.460 | 0.544 |
+| [SGD Regressor](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.SGDRegressor.html?highlight=sgdregress#sklearn.linear_model.SGDRegressor) | ['MWG','NWG', 'SA',  'VWM','MDIMC','SB', 'NDIMC'] | 0.459 | 0.544 |
 
-As we can see, the best model for this dataset is **Decision Tree Regressor**. However, the model score is pretty low meaning that none of the models will perform a very good prediction.
+As we can see, the best model for this dataset is **Decision Tree Regressor**. These results have been produced with the optimal number of variables found by minimizing the MSE and trying to reduce the number of attributes to avoid overfitting. 
 
 ## Demo
-Per tal de fer una prova, es pot fer servir amb la següent comanda
-``` python3 demo/demo.py --input here ```
+To visualize the experiments done you can either run the code or use the jupyter notebook.
+
+Firstly, download the project
+``` git clone https://github.com/m4riio21/GPU-Kernel-Performance-Dataset.git ```
+
+Download requirements:
+``` pip install -r requirements.txt ```
+
+To run the code:
+``` cd src && python3 run.py ```
+
+To use the jupyter notebook:
+``` link ```
+
 ## Conclusion
 El millor model que s'ha aconseguit ha estat...
 En comparació amb l'estat de l'art i els altres treballs que hem analitzat....
