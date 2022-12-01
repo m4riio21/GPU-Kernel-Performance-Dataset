@@ -56,7 +56,7 @@ To run the code:
 ``` cd src && python3 run.py ```
 
 To use the jupyter notebook:
-``` link ```
+``` [link](https://github.com/m4riio21/GPU-Kernel-Performance-Dataset/blob/main/GPU%20Kernel%20Performance%20Dataset.ipynb) ```
 
 ## Conclusion
 El millor model que s'ha aconseguit ha estat...
