@@ -59,9 +59,8 @@ To use the jupyter notebook:
 [link](https://github.com/m4riio21/GPU-Kernel-Performance-Dataset/blob/main/GPU%20Kernel%20Performance%20Dataset.ipynb)
 
 ## Conclusion
-El millor model que s'ha aconseguit ha estat...
-En comparació amb l'estat de l'art i els altres treballs que hem analitzat....
-## Future work
-Crec que seria interesant indagar més en...
+The prediction as we can visualize by the figures is quite difficult, mainly because all attributes are integers representing kernel values making it difficult for the models to generalize.
+However, we have got a good result using **Decision Tree Regressor**, getting a score of 0.938 with a little error.
+
 ## License
 This project is under the GPL-3.0 License - see the [LICENSE](LICENSE) for more details
